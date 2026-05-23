@@ -1,19 +1,21 @@
-/* VANTA BACKGROUND INIT */
-VANTA.WAVES({
-  el: "#vanta-bg",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  color: 0x0d0a1f,
-  shininess: 40.00,
-  waveHeight: 18.00,
-  waveSpeed: 0.50,
-  zoom: 0.75
-});
+/* VANTA BACKGROUND INIT — desktop only for performance */
+if (window.innerWidth > 768) {
+  VANTA.WAVES({
+    el: "#vanta-bg",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0x0d0a1f,
+    shininess: 40.00,
+    waveHeight: 18.00,
+    waveSpeed: 0.50,
+    zoom: 0.75
+  });
+}
 
 /* WELCOME INTRO */
 document.addEventListener('DOMContentLoaded', () => {
