@@ -14,7 +14,7 @@ This is a personal portfolio website for **Adang**, a Fullstack Developer focuse
 │       └── Aku.jpeg              # Profile photo
 ├── js/
 │   └── portfolio-adang.js        # All scripts, single file
-├── portfolio-adang.html          # Main page (single page)
+├── index.html          # Main page (single page)
 ├── oneblud-detail.html           # Detail page for OneBLUD project
 └── rplearn-detail.html           # Detail page for RPLearn project
 ```
@@ -40,7 +40,7 @@ Font:         'Outfit', sans-serif
 Border radius: 16px (cards), 10px (buttons), 8px (small elements)
 ```
 
-## Sections (portfolio-adang.html)
+## Sections (index.html)
 1. **#about** — Hero: foto profil di kanan, teks di kiri, social links, CTA buttons
 2. **#experience** — Timeline: pendidikan SMK, magang, project OneBLUD & RPLearn
 3. **#skills** — Grid skill cards dengan devicons berwarna
