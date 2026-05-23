@@ -99,6 +99,7 @@ body::before {
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   will-change: opacity, transform;
@@ -107,7 +108,10 @@ body::before {
 .intro-hello-wrapper {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 500px;
   will-change: opacity, transform;
 }
 
@@ -362,6 +366,8 @@ footer,
   -webkit-backdrop-filter: saturate(180%) blur(var(--glass-blur));
   border-bottom: 1px solid var(--glass-border);
   transition: background 0.3s, padding 0.3s;
+  opacity: 1 !important;
+  transform: none !important;
 }
 
 .navbar.scrolled {
@@ -1799,11 +1805,27 @@ footer span {
   }
 
   .hello__div {
-    padding: 24px 32px;
+    padding: 20px 24px;
+    max-width: 280px;
+  }
+
+  .hello__svg {
+    stroke-width: 28px;
+  }
+
+  .intro-hello-wrapper {
+    width: 85%;
+    max-width: 300px;
   }
 
   .intro-name {
     font-size: clamp(30px, 9vw, 56px);
+    padding: 12px 32px;
+  }
+
+  .intro-badge {
+    font-size: 10px;
+    padding: 6px 18px;
   }
 
   .hero-text h1 {
