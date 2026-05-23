@@ -1271,7 +1271,7 @@ section {
       100px 1300px 0 0.5px rgba(255,255,255,0.3),
       450px 1150px 0 0.5px rgba(255,255,255,0.45),
       190px 1400px 0 0.5px rgba(255,255,255,0.3);
-    animation: starDrift 80s linear infinite;
+    animation: starDrift 30s linear infinite;
   }
 
   /* Layer 2: Medium + large stars — fewer, brighter, twinkle */
@@ -1292,7 +1292,7 @@ section {
       80px 1100px 0 1px rgba(200,162,255,0.6),
       280px 1250px 0 1.5px rgba(255,255,255,0.7),
       150px 1400px 0 1px rgba(200,162,255,0.5);
-    animation: starDrift 120s linear infinite, starTwinkle 4s ease-in-out infinite alternate;
+    animation: starDrift 45s linear infinite, starTwinkle 4s ease-in-out infinite alternate;
   }
 
   @keyframes starDrift {
