@@ -1232,8 +1232,9 @@ section {
     position: absolute;
     top: 0;
     left: 0;
-    width: 200%;
-    height: 200%;
+    width: 1px;
+    height: 1px;
+    background: transparent;
     pointer-events: none;
   }
 
