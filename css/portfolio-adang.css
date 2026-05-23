@@ -1300,7 +1300,7 @@ section {
       transform: translateY(0);
     }
     to {
-      transform: translateY(-50%);
+      transform: translateY(-700px);
     }
   }
 
