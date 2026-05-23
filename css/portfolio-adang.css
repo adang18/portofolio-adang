@@ -189,6 +189,7 @@ body::before {
   align-items: center;
   gap: 16px;
   opacity: 0;
+  visibility: hidden;
   filter: blur(20px);
   transform: scale(1.05);
   animation: mainFocus 1.2s cubic-bezier(0.19, 1, 0.22, 1) forwards 4.3s;
@@ -236,12 +237,18 @@ body::before {
 @keyframes mainFocus {
   0% {
     opacity: 0;
+    visibility: hidden;
     filter: blur(20px);
     transform: scale(1.05);
   }
 
+  1% {
+    visibility: visible;
+  }
+
   100% {
     opacity: 1;
+    visibility: visible;
     filter: blur(0);
     transform: scale(1);
   }
