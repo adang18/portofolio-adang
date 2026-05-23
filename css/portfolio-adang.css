@@ -265,6 +265,16 @@ body::before {
     transform: translate(10px, -10px) scale(1.02);
   }
 }
+/* VANTA & MOBILE BACKGROUND CONTAINER */
+#vanta-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+  pointer-events: none;
+}
 
 body::after {
   content: '';
